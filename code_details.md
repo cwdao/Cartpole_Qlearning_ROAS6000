@@ -22,7 +22,7 @@ cp_env=Environment()
 
 调用 gym 库创建一个env对象，并指定呈现模式为“human”，该模式可以实时绘制动画，方便使用者观察。接着初始化观测空间和动作空间。其中，观测空间包括cart 的位置和速度，及pole的角度和速度。因此，`observation_space`大小为4。对于动作空间，由于只有一维的左右两个方向，其大小为2。我们打印出二者的尺寸检验初始化是否正确：
 
-![f1](C:\Users\cwdbo\OneDrive\桌面\theTEMP\学业\GKG\ROAS6000\作业\final_proj\details_fig\f1.png)
+![f1](.\details_fig\f1.png)
 
 取得初始化的观测空间和动作空间后，我们用这两个参数生成`Agent` 用以控制 cartpole。`Agent` 类的定义如下
 
